@@ -1,5 +1,5 @@
 .page-sidebar {
-  background-color: #0F204B;
+  background-color: var(--sidebar-bg-color);
 
   .nav-menu + .nav-menu {
     border-top-color: var(--sidebar-nav-border-color);
