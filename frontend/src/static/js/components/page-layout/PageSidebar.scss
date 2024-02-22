@@ -1,12 +1,12 @@
 .page-sidebar {
-  background-color: var(--sidebar-bg-color);
+  background-color: #0F204B;
 
   .nav-menu + .nav-menu {
     border-top-color: var(--sidebar-nav-border-color);
   }
 
   .nav-menu {
-    color: var(--sidebar-nav-item-text-color);
+    color: #fff;
 
     .menu-item-icon {
       color: var(--sidebar-nav-item-icon-color);
