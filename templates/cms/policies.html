@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block headtitle %}Policies - {{PORTAL_NAME}}{% endblock headtitle %}
+
+{% block topimports %}
+<link href="{% static "css/policies.css" %}" rel="preload" as="style">
+<link href="{% static "css/polices.css" %}" rel="stylesheet">
+{%endblock topimports %}
+
+{% block headermeta %}
+
+<meta property="og:title" content="Policies - {{PORTAL_NAME}}">
+<meta property="og:type" content="website">
+<meta property="og:description" content="">
+
+<meta name="twitter:card" content="summary">
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [{
+		"@type": "ListItem",
+		"position": 1,
+        "name": "{{PORTAL_NAME}}",
+        "item": {
+			"@type": "WebPage",
+	        "@id": "{{FRONTEND_HOST}}"
+	    }
+    },
+    {
+		"@type": "ListItem",
+		"position": 2,
+        "name": "About",
+        "item": {
+			"@type": "PoliciesPage",
+	        "@id": "{{FRONTEND_HOST}}/policies"
+	    }
+    }]
+}
+</script>
+
+{% endblock headermeta %}
+
+{% block innercontent %}
+<div class="custom-page-wrapper">
+	<h2>Policies</h2>
+</div>
+{% endblock %}
