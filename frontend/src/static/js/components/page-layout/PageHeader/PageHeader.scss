@@ -2,7 +2,7 @@
 @import '../../../../css/includes/_variables_dimensions.scss';
 
 .page-header {
-  background-color: #A71930;
+  background-color: var(--header-bg-color);
 
   .circle-icon-button {
     color: var(--header-circle-button-color);
@@ -285,7 +285,7 @@ a.user-menu-top-link {
     position: relative;
     float: left;
     max-width: 100%;
-    max-height: var(--logo-height, var(--default-logo-height));
+    max-height: 80px;
   }
 }
 

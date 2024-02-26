@@ -7,17 +7,17 @@ module.exports = {
   theme: {
     mode: 'light', // Valid values: 'light', 'dark'.
     switch: {
-      position: 'sidebar', // Valid values: 'header', 'sidebar'.
+      position: 'header', // Valid values: 'header', 'sidebar'.
     },
   },
   logo: {
     lightMode: {
-      svg: './static/images/logo_dark.svg',
-      img: './static/images/logo_dark.png',
+      svg: './static/images/Interdisciplinary Centre for Digital Futures - CMYK.svg',
+      img: './static/images/Interdisciplinary Centre for Digital Futures - CMYK.jpg',
     },
     darkMode: {
-      svg: './static/images/logo_light.svg',
-      img: './static/images/logo_light.png',
+      svg: './static/images/Interdisciplinary Centre for Digital Futures - CMYK.svg',
+      img: './static/images/Interdisciplinary Centre for Digital Futures - CMYK.jpg',
     },
   },
   pages: {
